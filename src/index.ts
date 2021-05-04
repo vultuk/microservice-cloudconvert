@@ -1,8 +1,8 @@
 import CloudConvertModule from 'cloudconvert';
-import {NextFunction, Request, Response} from 'express';
+import { NextFunction, Request, Response } from 'express';
 
-import {CloudConvert} from './Types/cloudConvert';
-import {Settings} from './Types/settings';
+import { CloudConvert } from './Types/cloudConvert';
+import { Settings } from './Types/settings';
 
 export { Settings } from './Types/settings';
 export type { CloudConvert } from './Types/cloudConvert';
